@@ -6,7 +6,7 @@ void main() {
   printPerson2('李四');
   printPerson2('李四', 20, "Male");  // 位置对应传参
 }
-
+// 如果存在必选参数，则可选参数必须在必选参数后面
 // 基于名称的可选参数 用{}
 printPerson(String name, {int age, String gender}) {
   print('name=$name,gae=$age,gender=$gender');
